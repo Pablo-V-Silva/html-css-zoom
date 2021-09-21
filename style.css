@@ -141,3 +141,14 @@ main {
 .windowsbtnblue {
     color: #39BBFC;
 }
+
+.img_contain {
+    position: relative;
+}
+
+.user {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.349);
+}
