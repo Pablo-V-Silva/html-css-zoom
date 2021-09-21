@@ -60,3 +60,84 @@ body {
     margin-left: 0.5rem;
 }
 /* /header */
+
+main {
+    color: white;
+    position: relative;
+}
+
+.main_buttons {
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.speak_icon {
+    margin-right: 0.5rem;
+}
+
+.speak_contain {
+    background-color: #3B3B3B;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.speak_img {
+    filter: contrast(24.5) invert(1);
+    width: 16px;
+}
+
+.expand_contain {
+    background-color: #3B3B3B;
+    padding: 5px 8px;
+    border-radius: 3px;
+    margin-left: 5px;
+    position: relative;
+}
+
+.hole {
+    width: 8px;
+    height: 4px;
+    background-color: #3B3B3B;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -70%);
+}
+
+.holecross {
+    width: 4px;
+    height: 8px;
+    background-color: #3B3B3B;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -70%);
+}
+
+.speakers_contain {
+    margin: auto;
+    width: 70%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.speakers_contain img {
+    margin-top: 18px;
+}
+
+.windowsbtn_contain {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.swipe_window {
+    font-size: 4rem;
+}
+
+.windowsbtnblue {
+    color: #39BBFC;
+}
